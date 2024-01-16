@@ -1,0 +1,27 @@
+
+  body {
+      background-image: url("../images/AI_MODEL_AF(2).png");
+      background-size: cover;
+    }
+  
+    .navbar-brand {
+      font-family: Helvetica Neue;
+      color: white;
+    }
+    
+    .navbar-nav .nav-link {
+      font-family: Helvetica Neue;
+      color: white;
+    }
+    
+    .navbar-nav .nav-link:hover {
+      color: #ccc;
+    }
+    
+    .navbar-nav .nav-link.active {
+      color: #fff;
+    }
+    
+    .navbar-nav .nav-link .fa {
+      margin-right: 5px;
+    }

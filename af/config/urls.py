@@ -20,6 +20,7 @@ from django.urls import path
 from animal_face import views
 
 urlpatterns = [
+    path('', views.welcome, name='welcome'),
     path("admin/", admin.site.urls),
-    path('animal_face/', views.index),
+    path('main/', views.main, name='main'),
 ]
